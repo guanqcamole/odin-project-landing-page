@@ -88,13 +88,20 @@ nav a {
     text-decoration: none;
 }
 
-nav a:link 
-{
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
     color: white;
 }
 
 nav a:hover {
-    color: red;
+    color: rgb(206, 25, 25);
+}
+
+nav a:active {
+    color: rgb(117, 0, 0);
 }
 
 .hero {
